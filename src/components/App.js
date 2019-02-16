@@ -4,6 +4,7 @@ import './app.scss';
 
 class App extends Component {
   render() {
+    console.log('fuck you biootch');
     return (
       <div className="app">
         <header>
