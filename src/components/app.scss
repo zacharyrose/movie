@@ -12,3 +12,27 @@ body {
   text-align: center;
   margin: 0 1rem;
 }
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 150px;
+
+  .movie-poster {
+    padding: 5px;
+    img {
+      width: 100%;
+    }
+  }
+
+  .movie-title {
+    word-wrap: break-word;
+    padding: 2px 16px;
+  }
+}
